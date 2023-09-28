@@ -1,13 +1,19 @@
 //import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-function App() {
+import FunctionalComp from './components/FunctionalComponents';
+import { ClassComponents} from './components/ClassComponents';
+import click from './components/click';
+function App(){
   const data='Sanjay';
-  return (
+ return (
     <div>
       <Header data={data}/>
        <h1 className='clr'>hello world</h1>
-       <Scroll/>
+       <FunctionalComp/>
+       <ClassComponents/>
+       <click/>
+      
     </div>
     
     
